@@ -1,5 +1,5 @@
 {
-  "name": "@creekburn/json-schema-manager",
+  "name": "@creekburn/schema-manager",
   "version": "0.0.0",
   "description": "Tooling for JSON Schema Management",
   "scripts": {
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creekburn/json-schema-manager.git"
+    "url": "git+https://github.com/creekburn/schema-manager.git"
   },
   "author": "Adam Kaplan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creekburn/json-schema-manager/issues"
+    "url": "https://github.com/creekburn/schema-manager/issues"
   },
-  "homepage": "https://github.com/creekburn/json-schema-manager#readme",
+  "homepage": "https://github.com/creekburn/schema-manager#readme",
   "dependencies": {
     "eslint": "7.32.0",
     "eslint-config-standard": "16.0.3",

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Adam Kaplan <7332764+Adam-Kaplan@users.noreply.github.com>",
-  "homepage": "https://github.com/creekburn/json-schema-manager/tree/main/packages/lib-test#readme",
+  "homepage": "https://github.com/creekburn/schema-manager/tree/main/packages/lib-test#readme",
   "license": "ISC",
   "directories": {
     "test": "__tests__"
@@ -16,16 +16,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creekburn/json-schema-manager.git"
+    "url": "git+https://github.com/creekburn/schema-manager.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/creekburn/json-schema-manager/issues"
+    "url": "https://github.com/creekburn/schema-manager/issues"
   },
   "dependencies": {
-    "@creekburn/json-schema-manager-lib": "0.0.0",
+    "@creekburn/schema-manager-lib": "0.0.0",
     "lodash": "4.17.21"
   }
 }

@@ -1,6 +1,6 @@
 'use strict'
 
-const JSONSchemaManager = require('@creekburn/json-schema-manager-lib')
+const JSONSchemaManager = require('@creekburn/schema-manager-lib')
 
 describe('constructor', () => {
   it('can be constructed', () => {

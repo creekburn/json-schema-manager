@@ -1,9 +1,9 @@
 {
-  "name": "@creekburn/json-schema-manager-lib",
+  "name": "@creekburn/schema-manager-lib",
   "version": "0.0.0",
   "description": "Libray to support JSON Schema Manager",
   "author": "Adam Kaplan <7332764+Adam-Kaplan@users.noreply.github.com>",
-  "homepage": "https://github.com/creekburn/json-schema-manager/tree/main/packages/json-schema-manager-lib#readme",
+  "homepage": "https://github.com/creekburn/schema-manager/tree/main/packages/schema-manager-lib#readme",
   "license": "MIT",
   "main": "lib/index.js",
   "directories": {
@@ -18,13 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creekburn/json-schema-manager.git"
+    "url": "git+https://github.com/creekburn/schema-manager.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/creekburn/json-schema-manager/issues"
+    "url": "https://github.com/creekburn/schema-manager/issues"
   },
   "dependencies": {
     "ajv": "8.6.3",
