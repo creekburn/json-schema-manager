@@ -1,0 +1,49 @@
+{
+  "name": "@creekburn/json-schema-manager",
+  "version": "0.0.0",
+  "description": "Tooling for JSON Schema Management",
+  "scripts": {
+    "test": "jest --coverage",
+    "lerna": "lerna",
+    "lint": "eslint --fix packages",
+    "doc": "jsdoc -c jsdoc-conf.json -r packages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creekburn/json-schema-manager.git"
+  },
+  "author": "Adam Kaplan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creekburn/json-schema-manager/issues"
+  },
+  "homepage": "https://github.com/creekburn/json-schema-manager#readme",
+  "dependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-plugin-import": "2.24.2",
+    "eslint-plugin-jest": "24.4.0",
+    "eslint-plugin-jest-formatting": "3.0.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "5.1.0",
+    "jest": "27.2.0",
+    "jsdoc": "3.6.7",
+    "lerna": "^4.0.0"
+  },
+  "jest": {
+    "projects": [
+      {
+        "displayName": "unit",
+        "testMatch": [
+          "<rootDir>/**/*.test.js"
+        ]
+      },
+      {
+        "displayName": "e2e",
+        "testMatch": [
+          "<rootDir>/**/*.e2e.js"
+        ]
+      }
+    ]
+  }
+}
